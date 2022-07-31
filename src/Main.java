@@ -35,42 +35,27 @@ public class Main {
         else {System.out.println("Сюда не доставляем");}
 
         //Задание 5
-        int monthNumber = 13;
-        switch (monthNumber){case 1:
-            System.out.println("Зима");
-            break;
+        int monthNumber = 0;
+        switch (monthNumber){
+            case 12:
             case 2:
+            case 1:
                 System.out.println("Зима");
                 break;
             case 3:
-                System.out.println("Весна");
-                break;
             case 4:
-                System.out.println("Весна");
-                break;
-            case 5:
+                case 5:
                 System.out.println("Весна");
                 break;
             case 6:
-                System.out.println("Лето");
-                break;
             case 7:
-                System.out.println("Лето");
-                break;
             case 8:
                 System.out.println("Лето");
                 break;
             case 9:
-                System.out.println("Осень");
-                break;
             case 10:
-                System.out.println("Осень");
-                break;
             case 11:
                 System.out.println("Осень");
-                break;
-            case 12:
-                System.out.println("Зима");
                 break;
             default:
         System.out.println("Такого месяца нет");}
